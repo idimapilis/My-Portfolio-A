@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ina Dimapilis — video editor and motion graphics animator.">
+  <title>Portfolio | Ina Dimapilis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">ID</span> INA<span class="orange">.</span></a>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html" >Home</a><a href="about.html" >About</a>
+    <a href="portfolio.html" class="active">Portfolio</a><a href="contact.html" >Contact</a>
+  </nav>
+  <button class="theme-toggle" aria-label="Toggle light and dark theme" title="Toggle theme"><span class="theme-icon">☾</span></button>
+</header>
+<main>
+
+<section class="page-hero wrap reveal"><p class="eyebrow">THE WORK SPEAKS</p><h1>Selected <span class="gradient-text">work.</span></h1><p class="lead">A growing collection of edits, animations, and visual experiments.</p></section>
+<section class="wrap portfolio-area">
+<div class="filter-row" role="group" aria-label="Filter portfolio"><button class="filter-btn active" data-filter="all">All work</button><button class="filter-btn" data-filter="video">Video editing</button><button class="filter-btn" data-filter="motion">Motion graphics</button></div>
+<p class="muted small">These are sample placeholders. Replace them with your own project thumbnails and media.</p>
+<div class="portfolio-grid">
+<article class="portfolio-item reveal" data-category="video"><div class="portfolio-thumb thumb-one"><span>01 / VIDEO</span><b>YOUR NEXT<br>VIDEO PROJECT</b><i>▶</i></div><div class="portfolio-caption"><div><h3>Video project title</h3><p>Replace with your project description</p></div><span>↗</span></div></article>
+<article class="portfolio-item reveal" data-category="motion"><div class="portfolio-thumb thumb-two"><span>02 / MOTION</span><b>TYPE IN<br>MOTION</b><i class="circle-shape"></i></div><div class="portfolio-caption"><div><h3>Motion graphics title</h3><p>Replace with your project description</p></div><span>↗</span></div></article>
+<article class="portfolio-item reveal" data-category="video"><div class="portfolio-thumb thumb-three"><span>03 / VIDEO</span><b>VISUAL<br>STORYTELLING</b><i>▶</i></div><div class="portfolio-caption"><div><h3>Editing project title</h3><p>Replace with your project description</p></div><span>↗</span></div></article>
+<article class="portfolio-item reveal" data-category="motion"><div class="portfolio-thumb thumb-four"><span>04 / MOTION</span><b>SHAPES<br>THAT MOVE</b><i class="square-shape"></i></div><div class="portfolio-caption"><div><h3>Animation project title</h3><p>Replace with your project description</p></div><span>↗</span></div></article>
+</div>
+<div class="upload-panel reveal"><div><p class="eyebrow">TRY YOUR MEDIA</p><h2>Preview your <span class="orange">files.</span></h2><p>Select image or video files to preview them in this page. This is a local browser preview only; it does not upload files to a website or save them online.</p></div>
+<label class="button primary upload-button">Choose images / videos ＋<input id="media-upload" type="file" accept="image/*,video/*" multiple hidden></label>
+<div id="upload-preview" class="upload-preview" aria-live="polite"><p>Your selected previews will appear here.</p></div></div>
+</section>
+
+</main>
+<nav class="bottom-nav wrap" aria-label="Quick navigation">
+  <a href="index.html">Home <span>01</span></a><a href="about.html">About <span>02</span></a>
+  <a href="portfolio.html">Portfolio <span>03</span></a><a href="contact.html">Contact <span>04</span></a>
+</nav>
+<footer class="site-footer"><div class="wrap footer-inner">
+  <a class="brand" href="index.html"><span class="brand-mark">ID</span> INA<span class="orange">.</span></a>
+  <p>Designed with intention. Made to move.</p><span>© <span class="year"></span> Ina Dimapilis</span>
+</div></footer>
+</body></html>
